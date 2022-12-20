@@ -2,9 +2,11 @@
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/isayme/apt-mirror/HEAD/select.sh)"
+```
 
-# 或
+或
 
+```
 bash -c "$(wget https://raw.githubusercontent.com/isayme/apt-mirror/HEAD/select.sh -O -)"
 ```
 
@@ -12,9 +14,11 @@ bash -c "$(wget https://raw.githubusercontent.com/isayme/apt-mirror/HEAD/select.
 
 ```bash
 bash -c "$(curl -fsSL http://ghproxy.com/raw.githubusercontent.com/isayme/apt-mirror/HEAD/select.sh)"
+```
 
-# 或
+或
 
+```
 bash -c "$(wget http://ghproxy.com/raw.githubusercontent.com/isayme/apt-mirror/HEAD/select.sh -O -)"
 ```
 
@@ -22,8 +26,10 @@ bash -c "$(wget http://ghproxy.com/raw.githubusercontent.com/isayme/apt-mirror/H
 
 ```bash
 bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/isayme/apt-mirror/select.sh)"
+```
 
-# 或
+或
 
+```
 bash -c "$(wget https://cdn.jsdelivr.net/gh/isayme/apt-mirror/select.sh -O -)"
 ```
