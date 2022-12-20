@@ -6,10 +6,12 @@ function getOsId() {
 
 function getOsCodeName() {
     osCodeName=$(sed -n 's/^VERSION_CODENAME=\([[:alnum:]]*\)/\1/p' /etc/os-release)
-    if [ -z "$var" ]
+    if [ -z "$osCodeName" ]
     then
         osCodeName=$(sed -n 's/^VERSION=.*(\([[:alnum:]]*\).*/\1/p' /etc/os-release)
     fi
+    # convert toLowerCase
+    osCodeName=${osCodeName,,}
 }
 
 getOsCodeName
